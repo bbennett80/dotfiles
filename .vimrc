@@ -1,4 +1,3 @@
-syntax on
 
 set hidden
 set number relativenumber
@@ -30,6 +29,7 @@ Plug 'mbbill/undotree'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
+Plug 'git@github.com:kien/ctrlp.vim.git'
 
 call plug#end()
 
@@ -60,5 +60,11 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>gs :G<CR>
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+
+" YCM remaps
+"nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
+
+
 nnoremap <F6> :setlocal spell! spelllang=en_us<CR>
-"nnoremap <leader>
+" nnoremap <leader>
