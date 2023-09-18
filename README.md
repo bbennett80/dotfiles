@@ -1,2 +1,2 @@
 # dotfiles
-personal dotfiles (MacBook Air)
+personal dotfiles
